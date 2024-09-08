@@ -448,6 +448,26 @@ h4 {
   width: 838px;
   height: 689px;
 }
+@media (max-width: 1882px) {
+  .scrap-section .car-image {
+    width: 600px;
+  }
+}
+@media (max-width: 1412px) {
+  .scrap-section .car-image {
+    width: 550px;
+  }
+}
+@media (max-width: 1327px) {
+  .scrap-section .car-image {
+    width: 500px;
+  }
+}
+@media (max-width: 1255px) {
+  .scrap-section .car-image {
+    width: 450px;
+  }
+}
 
 .scrap-metal {
   width: 514px;
