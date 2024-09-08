@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./styles.css" />
+  <title>Эколом</title>
+</head>
+<body>
+  <header class="header">
+    <div class="header__inner container">
+      <div class="header__logo logo">
+        <a class="logo__link" href="/">
+          <img class="logo__image" loading="lazy" src="./image/logo-img.svg" alt="Эколом" />
+        </a>
+        <p class="logo__schedule">Ежедневно с 9:00 до 21:00</p>
+      </div>
+
+      <div class="header__utility-bar utility-bar">
+        <div class="utility-bar__search search">
+          <button class="search__button">
+            <img width="16px" height="16px" class="search__icon" src="./image/button-search.svg" alt="Поиск по сайту" />
+          </button>
+          <input id="search-input" class="search__input" type="text" placeholder="Поиск по сайту" />
+        </div>
+
+        <a class="utility-bar__calculator" href="#">Калькулятор</a>
+
+        <ul class="utility-bar__social-links social-links">
+          <li class="social-links__item">
+            <a href="/" class="social-links__link">
+              <img width="30px" height="30px" src="./image/whatsApp.svg" alt="WhatsApp" class="social-links__icon" />
+            </a>
+          </li>
+          <li class="social-links__item">
+            <a href="/" class="social-links__link">
+              <img width="30px" height="30px" src="./image/Tg.svg" alt="Telegram" class="social-links__icon" />
+            </a>
+          </li>
+          <li class="social-links__item">
+            <a href="/" class="social-links__link">
+              <img width="30px" height="30px" src="./image/viber.svg" alt="Viber" class="social-links__icon" />
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="header__contact-us contact-us">
+        <div class="contact-us__details">
+          <p class="contact-us__item">
+            <a href="tel:+78129268833" class="contact-us__phone">+7 (812) 926-88-33</a>
+          </p>
+          <p class="contact-us__item">
+            <a href="mailto:info@eco-lom.ru" class="contact-us__email">info@eco-lom.ru</a>
+          </p>
+        </div>
+        <a class="contact-us__callback-btn link" href="#">Перезвоните мне</a>
+      </div>
+    </div>
+    <div class="header__menu">
+      <nav class="header__menu-wrapper container">
+        <ul class="header__menu-list">
+          <li class="header__menu-item"><a href="/" class="header__menu-link">Лотерея</a></li>
+          <li class="header__menu-item"><a href="/" class="header__menu-link">Металлолом</a></li>
+          <li class="header__menu-item"><a href="/" class="header__menu-link">Услуги</a></li>
+          <li class="header__menu-item"><a href="/" class="header__menu-link">Цены</a></li>
+          <li class="header__menu-item"><a href="/" class="header__menu-link">Пункты приёма</a></li>
+          <li class="header__menu-item"><a href="/" class="header__menu-link">О компании</a></li>
+          <li class="header__menu-item"><a href="/" class="header__menu-link">Контакты</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  
+  <main class="content">
+    <section class="scrap-section">
+      <div class="scrap-section__wrapper">
+        <div class="scrap-section__body container">
+          <div class="scrap-metal">
+            <h2 class="scrap-metal__title">
+              Приём лома чёрных и цветных металлов
+              <span class="highlight">в Санкт-Петербурге</span>
+            </h2>
+            <div class="scrap-metal__links">
+              <a class="scrap-metal__link link" href="#">Цены на сегодня</a>
+              <a class="scrap-metal__link link" href="#">Как сдать металл</a>
+            </div>
+            <div class="scrap-metal__extras">
+              <a class="scrap-metal__link link" href="#">Отзывы</a>
+              <a class="scrap-metal__link link" href="#">Акции</a>
+            </div>
+            <div class="scrap-metal__request">
+              <a class="scrap-section__request link" href="#">Оставить заявку</a>
+            </div>
+          </div>
+          <video width="200px" height="200px" class="join-us-video" src="" poster="./image/video.png"></video>
+        </div>
+        <img class="car-image" src="./image/car.png" alt="Машина" />
+      </div>
+    </section>
+    
+    <section class="card-section">
+      <div class="card-section__body container">
+        <ul class="card-section__list">
+          <li class="card-section__item card-section__item--first">
+            <div class="brand">
+              <img class="brand__logo" src="./image/card-logo(1).svg" alt="Моментальный расчет" />
+              <span class="brand__name">Моментальный расчёт</span>
+            </div>
+            <p class="card-section__description">
+              Мгновенная оплата по безналичному расчету на месте приёма
+            </p>
+          </li>
+          <li class="card-section__item card-section__item--second">
+            <div class="brand">
+              <img class="brand__logo" src="./image/card-logo(2).svg" alt="Высокая цена закупки" />
+              <span class="brand__name">Высокая цена закупки</span>
+            </div>
+            <p class="card-section__description">
+              Максимальная высокая цена закупки лома на рынке Санкт-Петербурга
+            </p>
+          </li>
+          <li class="card-section__item card-section__item--third">
+            <div class="brand">
+              <img class="brand__logo" src="./image/card-logo(3).svg" alt="Собственный автопарк" />
+              <span class="brand__name">Собственный автопарк</span>
+            </div>
+            <p class="card-section__description">
+              Свой автопарк, в составе которого более 30 единиц спецтехники
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    
+    <section class="complex-service">
+      <div class="complex-service__body container">
+        <h2 class="complex-service__title">Комплексный сервис</h2>
+        <div class="complex-service__content">
+          <div class="complex-service__text text-block">
+            <p class="text-block__paragraph">
+              Компания «ЭКОЛОМ» — ваш надежный партнер по переработке
+              металлолома в Санкт-Петербурге. Мы стремимся к экологической
+              ответственности, предлагая выгодные условия и профессиональный
+              сервис на всех этапах работы. Гарантируем честность,
+              прозрачность и высокие цены на металлолом!
+            </p>
+            <p class="text-block__paragraph">
+              Помимо переработки лома, наша компания предлагает комплексные
+              услуги, включая оценку состава металлов, вывоз и демонтаж. Мы
+              осуществляем демонтаж любой сложности – от кораблей и зданий до
+              железнодорожных составов и путей. Наши опытные специалисты и
+              собственный автопарк обеспечивают оперативность и надежность в
+              выполнении задач.
+            </p>
+            <p class="text-block__paragraph">
+              Вместе с компанией «ЭКОЛОМ» вы получаете не только надежного
+              партнера по переработке металлолома, но и комплексный сервис
+              высочайшего уровня. Мы с удовольствием берем на себя все этапы
+              работы — от приёмки до вывоза и демонтажа.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

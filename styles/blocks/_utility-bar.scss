@@ -1,0 +1,30 @@
+.utility-bar {
+  display: flex;
+  align-items: center;
+  gap: 98px;
+  margin-left: 42px;
+  &__search {
+    background-color: var(--color-input);
+    height: var(--input-height);
+    display: flex;
+    align-items: center;
+    width: 215px;
+    padding-inline: 28px;
+    border-radius: 100px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21.79px;
+  }
+  &__calculator {
+    color: var(--color-green);
+    text-decoration: underline;
+    text-decoration-color: var(--color-green);
+    text-decoration-thickness: 1px;
+  }
+  &__social-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+  }
+}

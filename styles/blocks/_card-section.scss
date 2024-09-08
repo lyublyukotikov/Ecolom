@@ -1,0 +1,51 @@
+.card-section {
+  margin-top: 62px;
+
+  &__list {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+  }
+
+  &__item {
+    background-color: var(--color-light);
+    border-radius: 12px;
+    border: 1px solid #e8e8e8;
+
+    // Общие значения padding
+    padding: 20px;
+
+    &--first {
+      padding: 20px 84px 24px 30px;
+    }
+
+    &--second {
+      padding: 20px 45px 24px 30px;
+    }
+
+    &--third {
+      padding: 20px 86px 24px 30px;
+    }
+  }
+
+  &__description {
+    margin-top: 12px;
+    font-size: 16px;
+    line-height: 21.79px;
+    color: var(--color-dark);
+  }
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  &__name {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27.24px;
+    color: var(--color-dark);
+    white-space: nowrap; 
+  }
+}

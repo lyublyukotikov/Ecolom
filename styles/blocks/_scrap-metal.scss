@@ -1,0 +1,32 @@
+.scrap-metal {
+  width: 514px;
+  margin-top: 48px;
+  &__title {
+    font-size: 48px;
+    line-height: 65.37px;
+    font-weight: 600;
+  }
+  &__link {
+    color: var(--color-accent);
+    background-color: transparent;
+  }
+  &__links {
+    display: flex;
+    margin-top: 49px;
+    align-items: center;
+    gap: 12px;
+  }
+  &__extras {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 10px;
+  }
+  &__request {
+    margin-top: 78px;
+  }
+}
+
+.highlight {
+  color: var(--color-green);
+}

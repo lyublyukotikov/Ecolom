@@ -1,0 +1,27 @@
+.scrap-section {
+  padding-top: 52px;
+  padding-bottom: 132px;
+  border-top: 1px solid #e8e8e8;
+  background-color: #f3f7f4;
+  &__body {
+    display: flex;
+    gap: 62px;
+  }
+  &__request {
+    color: var(--color-light);
+    background-color: var(--color-accent);
+    font-weight: 600;
+    margin-top: 72px;
+  }
+  &__wrapper {
+    position: relative;
+  }
+  .car-image {
+    position: absolute;
+    right: 0;
+    top: 58%;
+    transform: translateY(-50%);
+    width: 838px;
+    height: 689px;
+  }
+}

@@ -1,0 +1,11 @@
+.text-block {
+  &__paragraph {
+    margin-bottom: 32px;
+    font-size: 16px;
+    line-height: 21.79px;
+  }
+
+  &__paragraph:last-child {
+    margin-bottom: 0;
+  }
+}
